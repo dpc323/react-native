@@ -7,55 +7,48 @@
 import React, { Component } from 'react';
 import {
   AppRegistry,
-  Button,
   Alert,
   View,
   Text,
 } from 'react-native';
 
+import MyButton from "./js/MyButton";
+
 export default class Buttons extends Component {
-   onButtonPress() {
-      Alert.alert('Button has been pressed!');
-    }
-
-//错误写法
-    // const onButtonPress = () => {
-    // Alert.alert('Button has been pressed!');
-    // };
-// _onPressButton() {
-//     Alert.alert('Button has been pressed!');
-//   }
-
    render() {
     return (
-       <View style={{flexDirection: 'column', justifyContent: 'space-between'}}>
-          <Text>测试</Text>
-          <Button
-          onPress={this.onButtonPress}
-          title="Press Me"
-          accessibilityLabel="See an informative alert"
+       <View
+           //flexDicrection定义整体是否横竖排列场景,justifyContent内容布局,alignItems在已经给定的田字范围内排列
+           style={{
+                    flexDirection: 'column', justifyContent: 'center',  alignItems: 'center',
+                 }}>
+          <Text style={{justifyContent: 'center'}}>测试</Text>
+          <MyButton
+              name="Press Me"
+              tag = "1"
           />
-          <Button
-          onPress={this.onButtonPress}
-          title="Press Me"
-          accessibilityLabel="See an informative alert"
+          <MyButton
+          //onPress={this.onButtonPress}
+              name="Press Me"
+              tag = "2"
           />
-          <Button
-          onPress={this.onButtonPress}
-          title="Press Purple"
-          color="#841584"
-          accessibilityLabel="Learn more about purple"
+          <MyButton
+          //onPress={this.onButtonPress}
+              name="Press Purple"
+              tag = "3"
+              // color="#841584"
+          // accessibilityLabel="Learn more about purple"
           />
-          <Button
-            onPress={this.onButtonPress}
-            title="This looks great!"
-            accessibilityLabel="This sounds great!"
+          <MyButton
+            //onPress={this.onButtonPress}
+              name="This looks great!"
+              tag = "4"
+            // accessibilityLabel="This sounds great!"
           />
-          <Button
-            onPress={this.onButtonPress}
-            title="Ok!"
-            color="#841584"
-            accessibilityLabel="Ok, Great!"
+          <MyButton
+            //onPress={this.onButtonPress}
+              tag = "5"
+              name="Ok!"
           />
        </View>
     );
