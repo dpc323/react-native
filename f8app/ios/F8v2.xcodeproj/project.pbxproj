@@ -16,13 +16,6 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1D8CEAB71DF8012E00D6DA7A /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEAB01DF8012E00D6DA7A /* libBolts.a */; };
-		1D8CEAB81DF8012E00D6DA7A /* libCodePush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEAB11DF8012E00D6DA7A /* libCodePush.a */; };
-		1D8CEAB91DF8012E00D6DA7A /* libFBSDKCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEAB21DF8012E00D6DA7A /* libFBSDKCoreKit.a */; };
-		1D8CEABA1DF8012E00D6DA7A /* libFBSDKLoginKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEAB31DF8012E00D6DA7A /* libFBSDKLoginKit.a */; };
-		1D8CEABB1DF8012E00D6DA7A /* libFBSDKShareKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEAB41DF8012E00D6DA7A /* libFBSDKShareKit.a */; };
-		1D8CEABC1DF8012E00D6DA7A /* libreact-native-fbsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEAB51DF8012E00D6DA7A /* libreact-native-fbsdk.a */; };
-		1D8CEABD1DF8012E00D6DA7A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8CEAB61DF8012E00D6DA7A /* libReact.a */; };
 		7A7931406B2560B8A7347FB6 /* libPods-F8v2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD44AA9DD03A6B80ABA2B850 /* libPods-F8v2.a */; };
 /* End PBXBuildFile section */
 
@@ -59,13 +52,13 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = F8v2/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = F8v2/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = F8v2/main.m; sourceTree = "<group>"; };
-		1D8CEAB01DF8012E00D6DA7A /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/Bolts/libBolts.a"; sourceTree = "<group>"; };
-		1D8CEAB11DF8012E00D6DA7A /* libCodePush.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCodePush.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/CodePush/libCodePush.a"; sourceTree = "<group>"; };
-		1D8CEAB21DF8012E00D6DA7A /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKCoreKit.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/libFBSDKCoreKit.a"; sourceTree = "<group>"; };
-		1D8CEAB31DF8012E00D6DA7A /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKLoginKit.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/libFBSDKLoginKit.a"; sourceTree = "<group>"; };
-		1D8CEAB41DF8012E00D6DA7A /* libFBSDKShareKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKShareKit.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/FBSDKShareKit/libFBSDKShareKit.a"; sourceTree = "<group>"; };
-		1D8CEAB51DF8012E00D6DA7A /* libreact-native-fbsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libreact-native-fbsdk.a"; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/react-native-fbsdk/libreact-native-fbsdk.a"; sourceTree = "<group>"; };
-		1D8CEAB61DF8012E00D6DA7A /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
+		1D2F66C31E23827E00014C3D /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphoneos/Bolts/libBolts.a"; sourceTree = "<group>"; };
+		1D2F66C41E23827E00014C3D /* libCodePush.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCodePush.a; path = "Pods/../build/Debug-iphoneos/CodePush/libCodePush.a"; sourceTree = "<group>"; };
+		1D2F66C51E23827E00014C3D /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKCoreKit.a; path = "Pods/../build/Debug-iphoneos/FBSDKCoreKit/libFBSDKCoreKit.a"; sourceTree = "<group>"; };
+		1D2F66C61E23827E00014C3D /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKLoginKit.a; path = "Pods/../build/Debug-iphoneos/FBSDKLoginKit/libFBSDKLoginKit.a"; sourceTree = "<group>"; };
+		1D2F66C71E23827E00014C3D /* libFBSDKShareKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKShareKit.a; path = "Pods/../build/Debug-iphoneos/FBSDKShareKit/libFBSDKShareKit.a"; sourceTree = "<group>"; };
+		1D2F66C81E23827E00014C3D /* libreact-native-fbsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libreact-native-fbsdk.a"; path = "Pods/../build/Debug-iphoneos/react-native-fbsdk/libreact-native-fbsdk.a"; sourceTree = "<group>"; };
+		1D2F66C91E23827E00014C3D /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphoneos/React/libReact.a"; sourceTree = "<group>"; };
 		3F2AE10902A4B3DF9B9ADD12 /* Pods-F8v2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F8v2.release.xcconfig"; path = "Pods/Target Support Files/Pods-F8v2/Pods-F8v2.release.xcconfig"; sourceTree = "<group>"; };
 		AC693429287C251DA7465449 /* Pods-F8v2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F8v2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-F8v2/Pods-F8v2.debug.xcconfig"; sourceTree = "<group>"; };
 		AD44AA9DD03A6B80ABA2B850 /* libPods-F8v2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-F8v2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,13 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D8CEAB71DF8012E00D6DA7A /* libBolts.a in Frameworks */,
-				1D8CEAB81DF8012E00D6DA7A /* libCodePush.a in Frameworks */,
-				1D8CEAB91DF8012E00D6DA7A /* libFBSDKCoreKit.a in Frameworks */,
-				1D8CEABA1DF8012E00D6DA7A /* libFBSDKLoginKit.a in Frameworks */,
-				1D8CEABB1DF8012E00D6DA7A /* libFBSDKShareKit.a in Frameworks */,
-				1D8CEABC1DF8012E00D6DA7A /* libreact-native-fbsdk.a in Frameworks */,
-				1D8CEABD1DF8012E00D6DA7A /* libReact.a in Frameworks */,
 				0095423B1C175AB600433EAF /* libBVLinearGradient.a in Frameworks */,
 				7A7931406B2560B8A7347FB6 /* libPods-F8v2.a in Frameworks */,
 			);
@@ -143,13 +129,13 @@
 		3F4DDA6DC90E123F105F7DF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1D8CEAB01DF8012E00D6DA7A /* libBolts.a */,
-				1D8CEAB11DF8012E00D6DA7A /* libCodePush.a */,
-				1D8CEAB21DF8012E00D6DA7A /* libFBSDKCoreKit.a */,
-				1D8CEAB31DF8012E00D6DA7A /* libFBSDKLoginKit.a */,
-				1D8CEAB41DF8012E00D6DA7A /* libFBSDKShareKit.a */,
-				1D8CEAB51DF8012E00D6DA7A /* libreact-native-fbsdk.a */,
-				1D8CEAB61DF8012E00D6DA7A /* libReact.a */,
+				1D2F66C31E23827E00014C3D /* libBolts.a */,
+				1D2F66C41E23827E00014C3D /* libCodePush.a */,
+				1D2F66C51E23827E00014C3D /* libFBSDKCoreKit.a */,
+				1D2F66C61E23827E00014C3D /* libFBSDKLoginKit.a */,
+				1D2F66C71E23827E00014C3D /* libFBSDKShareKit.a */,
+				1D2F66C81E23827E00014C3D /* libreact-native-fbsdk.a */,
+				1D2F66C91E23827E00014C3D /* libReact.a */,
 				AD44AA9DD03A6B80ABA2B850 /* libPods-F8v2.a */,
 			);
 			name = Frameworks;
@@ -251,6 +237,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = YHC6HKS696;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -464,15 +451,22 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = F8v2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CodePush",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FBSDKCoreKit",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FBSDKLoginKit",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FBSDKShareKit",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/react-native-fbsdk",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
@@ -489,15 +483,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = F8v2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/CodePush",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FBSDKCoreKit",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FBSDKLoginKit",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/FBSDKShareKit",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/react-native-fbsdk",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",

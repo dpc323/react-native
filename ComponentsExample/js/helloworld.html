@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #mysteve {width:200px; height:200px; border:1px solid red; background: red; position: absolute;}
+        #add {width:200px; height:30px; border:1px solid blue; display:none;position: absolute;}
+    </style>
+    <script>
+        window.onload = function(){
+            var ms = document.getElementById("mysteve");
+            var add = document.getElementById("add");
+            ms.onmouseover = function(){
+                add.style.display = "block";
+            };
+            ms.onmouseout = function(){
+                add.style.display = "none";
+            };
+        };
+    </script>
+</head>
+<body>
+<div id="mysteve">
+
+    <div id="add">add</div>
+    <div>33333</div>
+</div>
+
+</body>
+<html>

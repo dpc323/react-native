@@ -11,13 +11,13 @@ target 'F8v2' do
     'RCTPushNotification',
     'RCTLinkingIOS',
     'RCTVibration',
-  ], :path => ‘../node_modules/react-native'
+  ], :path => '../node_modules/react-native'
   pod 'react-native-fbsdk', :subspecs => [
     'Core',
     'Login',
     'Share',
-  ], :path => ‘../node_modules/react-native-fbsdk/iOS'
-  pod 'CodePush', :path => ‘../node_modules/react-native-code-push'
+  ], :path => '../node_modules/react-native-fbsdk/iOS'
+  pod 'CodePush', :path => '../node_modules/react-native-code-push'
 end
 
 # Start the React Native JS packager server when running the project in Xcode.
