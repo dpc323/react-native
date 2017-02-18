@@ -9,6 +9,7 @@ import {
   AppRegistry,
   View,
   Text,
+  StyleSheet,
 } from 'react-native';
 
 // var ModalExample = require('./js/ModalExample');                    //      Modal组件  es5写法
@@ -30,27 +31,47 @@ import {
   //  import {title,description,displayName,examples} from './js/Text'   //此二句代码为了测试exports.example
   //  var TextDemo = require('./js/Text');     
  // import {WithLabel,TextEventsExample, AutoExpandingTextInput,RewriteExample,TokenizedTextExample,BlurOnSubmitExample} from './js/TextInput';
- import WebView from './js/WebView';
+//  import WebView from './js/WebView';
+// import {ActionSheetExample,ShareScreenshotExample} from './api/ActionSheetIOS';
+// import {framework,title,description,examples} from './api/AdSupportIOS';
+// import {AlertExample,SimpleAlertExampleBlock} from './api/Alert';
+// import {framework,title,description,examples} from './api/AlertIOS';
+// import {examples} from './api/Animated';
+// import {examples} from './api/AppState';
+// import CameraRoll from './api/CameraRoll';
+// import {examples} from './api/Clipboard';
+// import {examples} from './api/Geolocation';
+// import Example from './api/Keyboard';
+  //  import {examples} from './api/NetInfo';
+   import PanResponderExample from './api/PanResponder';
+
+
+
 
 export default class ComponentsExample extends Component {
 
   render() {
   
     return (
-          //  <ModalView />
-          //  <NavigatorIOSView /> 
-          // <PickerView />  
-          // <PickerIOSView />
-          // <ScrollView/>
-          // <SegmentControlIOS />
-          // <Slide />
-          // <StatusBar />
-          // <SwitchView />
-          // <TabBarIOS />
-          // <TextDemo />
+  <View style={{
+              flex:1,
+              marginTop: 20
+  }}>
+   {/*
+          <ModalView />
+          <NavigatorIOSView /> 
+          <PickerView />  
+          <PickerIOSView />
+          <ScrollView/>
+          <SegmentControlIOS />
+          <Slide />
+          <StatusBar />
+          <SwitchView />
+          <TabBarIOS />
+          <TextDemo />
 
-          /*
-          TextInput组件
+          {/*
+            TextInput组件
           <View style={{flex:1}}>  
            <WithLabel />
            <TextEventsExample />
@@ -59,11 +80,43 @@ export default class ComponentsExample extends Component {
            <TokenizedTextExample />
            <BlurOnSubmitExample />
           </View>
-          */
-          <WebView.ScaledWebView />
+         <WebView.ScaledWebView />
+        <ShareScreenshotExample />
+        <ActionSheetExample />
+
+        <Text>framework:{framework}</Text>
+        <Text>title:{title}</Text>
+        <Text>description:{description}</Text>
+        <Text>examples:{examples[0].title}</Text>   //分开倒入es5写法下，数组的使用
+        {examples[0].render()}
+
+        <AlertExample />
+        {examples[2].render()}  //AlertIOS例子，通过控制数组中index的数值来显示不同场景
+
+        {examples[2].render()}  //Animated,动画场景在button点击时的效果
+
+        //AppState 4个例子
+     {examples[0].render()}
+     {examples[1].render()}
+     {examples[2].render()}
+     {examples[3].render()}
+      <CameraRoll />  //模拟器需开启相机权限，用了第三方库react-native-image-picker    
+    {examples[0].render()} //定位信息
+    <Example />
+
+    //获取联网信息
+    {examples[0].render()} 
+    {examples[1].render()} 
+    {examples[2].render()} 
+    {examples[3].render()} 
+
+  */}
+    <PanResponderExample />
+  </View>
       );     
   }
 }
 
 //此处指作为入口
 AppRegistry.registerComponent('ComponentsExample', () => ComponentsExample);
+
