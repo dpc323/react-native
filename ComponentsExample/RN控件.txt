@@ -1,0 +1,68 @@
+快速过目控件未运行控件：
+DrawerLayoutAndroid
+KeyboardAvoidingView
+ListView
+ListView.DataSource
+MapView
+Navigator
+ProgressBarAndroid 转圈进度条
+ProgressViewIOS 直线进度条
+TabBarIOS.Item
+TextInput
+TouchableHighlight
+TouchableNativeFeedback
+TouchableOpacity
+TouchableWithoutFeedback
+View
+ViewPagerAndroid
+
+未运行成功例子
+Image
+NavigatorIOS
+
+运行成功控件
+Modal
+Picker
+PickerIOS
+ProgressViewIOS
+SegmentedControlIOS
+Slider
+StatusBar
+TabBarIOS
+Text	（此处有个问题exports.exmaples怎么用的）
+
+ActionSheetIOS
+Alert
+AlertIOS
+Animated
+AppState
+CameraRoll(需配置权限)
+Clipboard 
+Dimensions(效果被当成Clipboard复制内容实现)
+Geolocation
+Keyboard  (不知道为什么收起键盘的方法执行两次)
+NetInfo 获取设备联网信息
+PanResponder 手势
+Vibration
+
+
+运行成功未出效果
+ScrollView
+AdSupportIOS(需真机)
+
+不需要运行效果的api
+AppRegistry
+AsyncStorage
+BackAndroid
+DatePickerAndroid
+Easing 缓动函数 例子插图：http://xaedes.de/dev/transitions/
+ImagePickerIOS 估计是调用相机的
+ImageStore 用于存放处理后的文件
+InteractionManager 优化动画之行
+LayoutAnimation 试图位置变化动画
+Linking app链接交互
+NativeMethodsMixin
+PermissionsAndroid 权限设置
+PixelRatio  像素密度
+ToastAndroid 
+VibrationIOS(过期) 本模块导出函数VibrationIOS.vibrate()用于控制设备震动
